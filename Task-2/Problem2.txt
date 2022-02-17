@@ -1,0 +1,14 @@
+This program will allow the user to  print Nth fibonacci number.(Nth Fibonacci Number denoted as F(N), F(0)=0, F(1)=1, F(2)=1, F(3)=2,…)
+
+Declare Integers a,b,c,n,i
+Input n
+Set a=0
+Set b=1
+Set i=o
+While i<n
+   Set i=i+1
+   Set c=a+b
+   Set a=b
+   Set b=c
+End While
+Print "a"
