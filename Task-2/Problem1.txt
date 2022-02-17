@@ -1,0 +1,19 @@
+This program will allow the user to check if a given number is divisible by 3 or not.
+
+Declare Integers n,i,x
+Input n
+set x=o
+If n<0 Then
+   Set n=-n
+End If
+For i=o to n step 3
+   If i==n then
+     Set i=n+1
+     Set x=1
+   End If
+End For
+If x==1 Then
+   Print "True"
+Else
+   Print "False"
+End If
